@@ -1,0 +1,48 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 2em;
+}
+
+.cabecalho__logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__nome-empresa{
+    margin-left: 0.5em;
+    font-family: var(--fonte-primaria);
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza);
+}
+
+.cabecalho__menu{
+    margin-right: auto;
+}
+
+.cabecalho__menu-links{
+    margin: 0 1.5em;
+    text-decoration: none;
+    color: var(--cinza-500);
+}
+
+.cabecalho__login a{
+    text-decoration: none;   
+}
+
+.cabecalho__login-entrar{
+    color: var(--cinza-500);
+    font-weight: 500;
+}
+
+.cabecalho__login-cadastrar{
+    margin: 0 2em;
+    color: var(--branco);
+    background-color: var(--bordo);
+    padding: 0.8em;
+    border-radius: 8px;
+    font-weight: 500;
+
+}

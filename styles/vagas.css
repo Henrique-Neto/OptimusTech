@@ -1,0 +1,42 @@
+.vagas{
+    display: block;
+    max-width: 50%;
+    margin: 3em auto;
+}
+
+.vagas__titulo{
+    margin-bottom: 2em;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cinza-900);
+
+}
+.vagas__card{
+    border: 1px solid var(--cinza-200);
+    border-radius: 16px;
+    background-color: transparent;
+    padding: 2em 5em 2em 2em;
+    
+    
+}
+
+.vagas__cargo{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza-900);
+    margin-bottom: 2em;
+}
+
+.vagas__descricao{
+    display: flex;
+}
+
+.vagas__regime{
+    margin-right: 1em;
+}
+
+.vagas__descricao p{
+    font-weight: 500;
+    color: var(--cinza-500);
+}
+

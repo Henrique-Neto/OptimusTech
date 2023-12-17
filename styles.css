@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas_abertas.css);
+@import url(styles/vagas.css);
+@import url(styles/depoimentos.css);
+
+:root{
+
+    /*Cores*/
+        --cinza-900:#101828;
+        --cinza-500:#667085;
+        --cinza-200:rgba(234, 236, 240, 1);
+        --cinza:#3A404E;
+        --bordo:#8E2424;
+        --bordo-light:rgba(195, 25, 25, 0.03);
+        --branco:#FFFFFF;
+
+    /*Fontes*/
+        --fonte-primaria:'Inter', sans-serif;
+    
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 2em
+}
+
+
+
+

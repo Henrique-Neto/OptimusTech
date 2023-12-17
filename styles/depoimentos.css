@@ -1,0 +1,35 @@
+.depoimentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bordo-light);
+    border-radius: 16px;
+    padding: 3em;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.depoimentos__titulo-principal{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--bordo);
+}
+
+.depoimentos h2{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: var(--cinza-900);
+    margin: 1em 0;
+}
+
+.depoimentos__img-nome{
+    font-weight: 500;
+    color: var(--cinza-900);
+    margin: 0.8em 0;
+}
+
+.depoimentos p{
+    font-size: 14px;
+    color: var(--cinza-500);
+}

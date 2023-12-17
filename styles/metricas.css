@@ -1,0 +1,28 @@
+.metricas{
+    padding: 2em 0;
+}
+.metricas__lista{
+    display: flex;
+    justify-content: space-around;       
+}
+
+.metricas__lista-numero{
+    color: var(--bordo);
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+
+
+.metricas__lista-titulo{
+    color: var(--cinza-900);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.metricas__lista-descicao{
+    color: var(--cinza-500);   
+    
+}

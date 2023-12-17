@@ -1,0 +1,29 @@
+.vagas__abertas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5em 0;
+}
+
+.vagas__abertas-nome{
+    color: var(--bordo);
+    font-size: 14px;
+    font-weight: 500;
+    background: rgba(142, 36, 36, 0.05);
+    padding: 0.30em;
+    border-radius: 16px;
+}
+
+.vagas__abertas-titulo{
+    font-size: 36px;
+    font-weight: 600;  
+    color: var(--cinza-900); 
+    margin: 0.8em 0;
+}
+
+.vagas__abertas-descicao{
+    font-size: 20px;
+    color: var(--cinza-500);
+    margin-bottom: 2em;
+}
+
