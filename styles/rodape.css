@@ -1,0 +1,45 @@
+.rodape {
+    text-align: center;
+}
+
+.rodape h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--cinza-900);
+}
+
+.rodape h3 {
+    font-size: 20px;
+    color: var(--cinza-500);
+    margin: 2em 0;
+}
+
+.rodape __bt_pesquisa{
+    display: flex;
+    align-items: center;
+}
+
+.rodape__pesquisa {
+    color: var(--cinza-500);
+    padding: 0.8em;
+    padding-right: 10em;
+    border-color: var(--cinza-500);
+    border-radius: 8px;
+    border: 1px solid #D0D5DD;
+}
+
+.rodape a {
+    background-color: var(--bordo);
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    padding: 0.6em;
+    border-radius: 8px;
+    margin-left: 1em;
+    
+}
+
+.rodape p {
+    color: var(--cinza-400);
+    margin-top: 2em;
+}
